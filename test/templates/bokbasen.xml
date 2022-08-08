@@ -166,6 +166,11 @@ Nå er den 5. bølgen i emning, og på en øde motorvei flykter Cassie fra Dem. 
                 <Date dateformat="00">20140401</Date>
             </PublishingDate>
             <LatestReprintNumber>1</LatestReprintNumber>
+            <SalesRights>
+                <Territory>
+                    <CountriesIncluded>NO</CountriesIncluded>
+                </Territory>
+            </SalesRights>
         </PublishingDetail>
         <ProductSupply>
             <Market>

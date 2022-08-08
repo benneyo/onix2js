@@ -47,7 +47,9 @@ describe("Feeds", () => {
                 {
                   partNumber: null,
                   titleElementLevel: "Product",
+                  titlePrefix: null,
                   titleText: "Den 5. bølgen",
+                  titleWithoutPrefix: null,
                 },
               ],
             },
@@ -136,6 +138,9 @@ describe("Feeds", () => {
               salesRightsType: null,
               territory: {
                 regionsIncluded: null,
+                countriesIncluded: [
+                  "Norway"
+                ],
               },
             },
           },

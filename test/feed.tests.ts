@@ -43,12 +43,16 @@ describe("Feeds", () => {
                     {
                       partNumber: null,
                       titleElementLevel: "CollectionLevel",
+                      titlePrefix: null,
                       titleText: "Kampen om Tusenvärld",
+                      titleWithoutPrefix: null,
                     },
                     {
                       partNumber: null,
                       titleElementLevel: "Product",
+                      titlePrefix: null,
                       titleText: "2",
+                      titleWithoutPrefix: null,
                     },
                   ],
                   titleType:
@@ -63,12 +67,16 @@ describe("Feeds", () => {
                 {
                   partNumber: null,
                   titleElementLevel: "Product",
+                  titlePrefix: null,
                   titleText: "Moby Dick – Valen",
+                  titleWithoutPrefix: null,
                 },
                 {
                   partNumber: null,
                   titleElementLevel: "CollectionLevel",
+                  titlePrefix: null,
                   titleText: "Series",
+                  titleWithoutPrefix: null,
                 },
               ],
             },
@@ -164,6 +172,7 @@ describe("Feeds", () => {
               salesRightsType:
                 "ForSaleWithNonExclusiveRightsInTheSpecifiedCountriesOrTerritories",
               territory: {
+                countriesIncluded: null,
                 regionsIncluded: "World",
               },
             },
@@ -230,7 +239,9 @@ describe("Feeds", () => {
                 {
                   partNumber: null,
                   titleElementLevel: "Product",
+                  titlePrefix: null,
                   titleText: "Gemmesteder",
+                  titleWithoutPrefix: null,
                 },
               ],
             },
@@ -341,6 +352,7 @@ describe("Feeds", () => {
               salesRightsType:
                 "ForSaleWithNonExclusiveRightsInTheSpecifiedCountriesOrTerritories",
               territory: {
+                countriesIncluded: null,
                 regionsIncluded: "World",
               },
             },
